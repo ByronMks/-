@@ -9,7 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-# Βασικές ρυθμίσεις
+# Αρχικοποιήσεις
 BASE_URL = "https://en.wikipedia.org/wiki/"
 TOPICS = ["Information_retrieval", "Natural_language_processing", "Artificial_intelligence","Data_mining", "Machine_learning", "Deep_learning", "Computer_vision", "Neural_network", "Big_data", "Data_science"]
 
