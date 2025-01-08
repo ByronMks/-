@@ -11,7 +11,7 @@ import json
 
 # Βασικές ρυθμίσεις
 BASE_URL = "https://en.wikipedia.org/wiki/"
-TOPICS = ["Information_retrieval", "Natural_language_processing", "Artificial_intelligence"]
+TOPICS = ["Information_retrieval", "Natural_language_processing", "Artificial_intelligence","Data_mining", "Machine_learning", "Deep_learning", "Computer_vision", "Neural_network", "Big_data", "Data_science"]
 
 # Συνάρτηση για τη συλλογή περιεχομένου
 def scrape_wikipedia_articles(topics):
