@@ -48,4 +48,4 @@ articles = scrape_wikipedia_articles(TOPICS)
 with open("wikipedia_articles.json", "w", encoding="utf-8") as f:
     json.dump(articles, f, ensure_ascii=False, indent=4)
 
-print(f"Αποθηκεύτηκαν {len(articles)} άρθρα στο 'wikipedia_articles.json'.")
+print(f"{len(articles)} articles saved in 'wikipedia_articles.json'.")
